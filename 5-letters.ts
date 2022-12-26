@@ -1,9 +1,3 @@
-type TInsertedSymbol = {
-  symbol: string,
-  exist: boolean,
-  onPlace: boolean,
-};
-
 export class FiveLetters {
   readonly aimWord: string;
   readonly aimSymbols: Map<string, number>;
